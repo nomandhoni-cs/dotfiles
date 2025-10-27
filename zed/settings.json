@@ -19,8 +19,8 @@
   "icon_theme": "Material Icon Theme",
   "buffer_font_family": ".ZedMono",
   "buffer_font_features": {
-    "calt": true,
-    "liga": true
+    "calt": true
+    // "liga": true
   },
   "buffer_font_size": 16,
   "buffer_line_height": {
