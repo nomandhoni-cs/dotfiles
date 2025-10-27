@@ -1,0 +1,113 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "inlay_hints": {
+    "show_background": false
+  },
+  "helix_mode": false,
+  "vim_mode": false,
+  "icon_theme": "Material Icon Theme",
+  "buffer_font_family": ".ZedMono",
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true
+  },
+  "buffer_font_size": 16,
+  "buffer_line_height": {
+    "custom": 1.2
+  },
+  "terminal": {
+    "font_weight": 400.0,
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "keep_selection_on_copy": true,
+    "dock": "bottom",
+    "default_width": 640,
+    "default_height": 320,
+    "detect_venv": {
+      "on": {
+        "directories": [".env", "env", ".venv", "venv"],
+        "activate_script": "default"
+      }
+    },
+    "env": {},
+    "font_family": "Cascadia Code",
+    "font_features": {
+      "calt": true,
+      "liga": true
+    },
+    "font_size": 15,
+    "line_height": "comfortable",
+    "minimum_contrast": 45,
+    "option_as_meta": false,
+    "button": true,
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe"
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": null
+    }
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "auto"
+  },
+  "file_types": {},
+  "auto_indent_on_paste": true,
+  "show_edit_predictions": true,
+  "ui_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "GitHub Dark Default"
+  },
+  "title_bar": {
+    "show_branch_icon": false,
+    "show_branch_name": true,
+    "show_project_items": true,
+    "show_onboarding_banner": true,
+    "show_user_picture": true,
+    "show_sign_in": true,
+    "show_menus": true
+  },
+  "project_panel": {
+    "button": true,
+    "default_width": 240,
+    "dock": "left",
+    "entry_spacing": "comfortable",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 20,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true,
+    "drag_and_drop": true,
+    "scrollbar": {
+      "show": null
+    },
+    "sticky_scroll": true,
+    "show_diagnostics": "all",
+    "indent_guides": {
+      "show": "always"
+    },
+    "hide_root": false,
+    "hide_hidden": false,
+    "starts_open": true
+  }
+}
